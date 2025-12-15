@@ -46,38 +46,6 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
-    },
-    {
-      "rewrites": [
-        {
-          "source": "/_dai/api/:path*",
-          "destination": "https://pietro-pavesi.documentationai.com/_dai/api/:path*"
-        },
-        {
-          "source": "/dai-assets/:path+",
-          "destination": "https://pietro-pavesi.documentationai.com/dai-assets/:path+"
-        },
-        {
-          "source": "docs",
-          "destination": "https://pietro-pavesi.documentationai.comdocs"
-        },
-        {
-          "source": "docs/:path*",
-          "destination": "https://pietro-pavesi.documentationai.comdocs/:path*"
-        },
-        {
-          "source": "docs/llms.txt",
-          "destination": "https://pietro-pavesi.documentationai.com/llms.txt"
-        },
-        {
-          "source": "docs/sitemap.xml",
-          "destination": "https://pietro-pavesi.documentationai.com/sitemap.xml"
-        },
-        {
-          "source": "docs/robots.txt",
-          "destination": "https://pietro-pavesi.documentationai.com/robots.txt"
-        }
-      ]
     }
   ]
 }
