@@ -70,7 +70,7 @@ teams, new hires, and AI systems instantly, for ever.
                 className="w-full sm:w-auto border border-slate-light text-ivory-light hover:text-ivory-light hover:bg-ivory-light/10 hover:border-book-cloth bg-transparent group transition-transform duration-300 hover:scale-105"
                 asChild
               >
-                <a href="mailto:hello@tacivo.com?subject=Demo Request&body=Hi Tacivo team,%0D%0A%0D%0AI'd like to schedule a demo to learn more about how Tacivo can help capture and preserve our organization's tacit knowledge.%0D%0A%0D%0AThank you!">
+                <a href="https://calendly.com/hello-tacivo/30min" target="_blank" rel="noopener noreferrer">
                   Book a demo
                   </a>
               </Button>
