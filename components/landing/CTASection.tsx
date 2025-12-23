@@ -12,8 +12,8 @@ const CTASection = () => {
           {/* Left */}
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl leading-tight mb-6 text-white animate-fade-in">
-              <span className="font-medium">Don't let your competitive </span>
-              <span className="font-serif italic">advantage walk out.</span>
+              <span className="font-medium">Expert knowledge is your competitive moat. </span>
+              <span className="font-serif italic">Don't lose it.</span>
             </h2>
             <p className="text-lg text-cloud-medium mb-8 animate-fade-in-delay-1">
               Start capturing, preserving, and leveraging your organization's most valuable asset.
@@ -23,7 +23,7 @@ const CTASection = () => {
               className="bg-white text-slate-dark hover:bg-white/90 group transition-transform duration-300 hover:scale-105 animate-fade-in-delay-2"
               asChild
             >
-              <a href="mailto:hello@tacivo.com?subject=Demo Request&body=Hi Tacivo team,%0D%0A%0D%0AI'd like to schedule a demo to learn more about how Tacivo can help capture and preserve our organization's tacit knowledge.%0D%0A%0D%0AThank you!">
+              <a href="https://calendly.com/hello-tacivo/30min" target="_blank" rel="noopener noreferrer">
                 Schedule a demo
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>

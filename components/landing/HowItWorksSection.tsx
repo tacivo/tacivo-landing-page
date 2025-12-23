@@ -7,7 +7,7 @@ const steps = [{
 }, {
   number: "02",
   title: "AI-Guided Sessions",
-  description: "Structured conversations adapting to role and context.",
+  description: "Experts have structured conversations with our AI adapting to role and context.",
   icon: MessageSquare
 }, {
   number: "03",
@@ -29,14 +29,14 @@ const OrgChartMockup = () => <div className="w-full h-full rounded-xl border bor
     <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary/30">
       <span className="text-xs font-medium text-foreground">Expert Identification</span>
       <div className="flex items-center gap-1.5">
-        <div className="w-2 h-2 rounded-full bg-green-500" />
-        <span className="text-[10px] text-muted-foreground">Scanning</span>
+        <UserPlus className="w-3 h-3 text-muted-foreground" />
+        <span className="text-[10px] text-muted-foreground">Manual</span>
       </div>
     </div>
     <div className="flex-1 p-4 flex flex-col">
       <div className="flex items-center gap-2 mb-4">
-        <Search className="w-3 h-3 text-muted-foreground" />
-        <span className="text-xs text-muted-foreground">Analyzing organization...</span>
+        <Users className="w-3 h-3 text-muted-foreground" />
+        <span className="text-xs text-muted-foreground">Invite key knowledge holders...</span>
       </div>
       <div className="flex-1 flex flex-col items-center justify-center">
         <div className="w-10 h-10 rounded-full bg-secondary border border-border mb-2" />
@@ -59,8 +59,8 @@ const OrgChartMockup = () => <div className="w-full h-full rounded-xl border bor
         </div>
       </div>
       <div className="mt-auto pt-3 border-t border-border flex items-center justify-between">
-        <span className="text-[10px] text-muted-foreground">3 critical experts found</span>
-        <span className="text-[10px] text-primary">View all →</span>
+        <span className="text-[10px] text-muted-foreground">3 experts selected</span>
+        <span className="text-[10px] text-primary">Add more →</span>
       </div>
     </div>
   </div>;

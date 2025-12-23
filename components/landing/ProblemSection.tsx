@@ -13,12 +13,12 @@ const ProblemSection = () => {
               <span className="font-serif italic">knowledge transfer.</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-6 sm:mb-8 animate-fade-in-delay-1">
-              Traditional tools organize what's written. Tacivo captures what never gets documented—the decisions, insights, and expertise that took years to build.
+              Traditional tools organize what's written. Tacivo captures what never gets documented: the why behind decisions, the insights, and the expertise that took years to build.
             </p>
 
             {/* Feature list */}
             <div className="space-y-3 sm:space-y-4 animate-fade-in-delay-2">
-              {["AI-guided elicitation sessions", "Living knowledge base", "Enterprise-ready security"].map((item, i) => <div key={i} className="flex items-center gap-2.5 sm:gap-3">
+              {["AI-guided elicitation: model built on proven knowledge methodologies", "Living knowledge base: the first tacit knowledge base, ready for AI", "Enterprise-ready security: you own your most valuable knowledge"].map((item, i) => <div key={i} className="flex items-center gap-2.5 sm:gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-foreground flex-shrink-0" />
                   <span className="text-sm sm:text-base text-foreground">{item}</span>
                 </div>)}

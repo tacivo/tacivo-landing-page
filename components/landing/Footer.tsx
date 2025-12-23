@@ -57,6 +57,11 @@ const Footer = () => {
             </button>
           </div>
 
+          {/* Tagline */}
+          <p className="text-sm text-cloud-medium font-medium">
+            Building the Tacit Knowledge Advantage
+          </p>
+
           {/* Links */}
           <div className="flex flex-wrap items-center justify-center gap-6">
             <a href="#" className="text-sm text-cloud-medium hover:text-ivory-light transition-colors">
