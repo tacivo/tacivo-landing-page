@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-const rotatingWords = ["Codify", "Preserve", "Leverage", "Structure"];
+const rotatingWords = ["Structure", "Preserve", "Leverage"];
 
 const HeroSection = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
